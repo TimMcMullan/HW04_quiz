@@ -4,21 +4,24 @@
     padding: 1%;
   }
   
-body.div {
+/* body.div {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
     margin: 0%;
-}
+} */
 
-.time {
+/* set countdown timer in upper right of page  */
+.timer {
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-end;
     font-size: 60px;
     font-weight: bold;
     padding-left: 0;
+    margin: 0%;
 }
-
+/* styling for countdown */
 #timeRemain {
   display: flex;
   justify-content: flex-end;
@@ -32,4 +35,18 @@ body.div {
 #question-container {
   display: flex;
   justify-content: center;
+  flex-wrap: nowrap;
+}
+
+/* #question {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+} */
+
+.buttonArea {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40px;
 }
