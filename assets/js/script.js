@@ -7,22 +7,34 @@ var timerID;
 var questionIndex = 0
 var answersEl = document.getElementById('answers')
 
+
 var questions = [
     {
-        question: "Sample question1",
-        choices: ["A", "B", "C", "D"],
+        question: "In the ‘array’ [5, 8, apple, syntax], what is the information at index array.3?",
+        choices: [5, 8, "Apple", "Syntax"],
+        correctAnswer: "D",
+    },
+    {
+        question: "Which of the following is not a language you will learn during this bootcamp?",
+        choices: ["JavaScript", "Bootstrap", "Java", "jQuery"],
+        correctAnswer: "C",
+    },
+    {
+        question: "The term “CSS” is an acronym for:",
+        choices: ["Creative Sheet Source", "Cascading Style Sheet", "C+ System Source", "Community Sourced Styling"],
         correctAnswer: "B",
     },
     {
-        question: "Sample question2",
-        choices: ["A", "B", "C", "D"],
-        correctAnswer: "B",
-    },
-    {
-        question: "Sample question3",
-        choices: ["A", "B", "C", "D"],
+        question: "In the ‘array’ [5, 8, apple, Syntax], the js command (array.length) will return the value:",
+        choices: ["13", "4", "3", "Null"],
         correctAnswer: "B",
     }
+    {
+        question: "Which of the following is NOT an alias used by our class instructor?",
+        choices: ["John Dinsmore", "John Williams", "John Claude Van Damme", "John Wick"],
+        correctAnswer: "A",
+    }
+
 ]
 
 // function to start game 
