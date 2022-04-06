@@ -28,12 +28,12 @@ var questions = [
         question: "In the ‘array’ [5, 8, apple, Syntax], the js command (array.length) will return the value:",
         choices: ["13", "4", "3", "Null"],
         correctAnswer: "B",
-    }
+    },
     {
         question: "Which of the following is NOT an alias used by our class instructor?",
         choices: ["John Dinsmore", "John Williams", "John Claude Van Damme", "John Wick"],
         correctAnswer: "A",
-    }
+    },
 
 ]
 

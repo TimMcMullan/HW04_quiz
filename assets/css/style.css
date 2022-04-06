@@ -1,7 +1,5 @@
 * {
-    box-sizing: border-box; */
-    margin: 2%;
-    padding: 1%;
+    box-sizing: border-box;
   }
   
 /* body.div {
@@ -13,29 +11,19 @@
 
 /* set countdown timer in upper right of page  */
 .timer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    font-size: 60px;
-    font-weight: bold;
-    padding-left: 0;
-    margin: 0%;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 10px;
 }
 /* styling for countdown */
 #timeRemain {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 0;
-  margin-right: 10px;
-  font-size: 24px;
-  font-weight:normal;
+
 }
 
 #question-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: nowrap;
+  
 }
 
 /* #question {
@@ -45,12 +33,37 @@
 } */
 
 .buttonArea {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 40px;
+
 }
 
-.hide (
+#content-container {
+  width: 50%;
+  margin: auto;
+}
+
+.hide {
   display: none;
-)
+}
+
+#quiz-introduction {
+  text-align: center;
+}
+
+#responseButtons ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  padding-left: 0 !important;
+}
+
+#question-answers ul {
+  padding-left :0 !important;
+}
+
+#question-answers ul li {
+  margin-bottom: 4px;
+}
+
+.button-answer {
+  width: 250px;
+}
